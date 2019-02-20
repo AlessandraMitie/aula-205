@@ -1,0 +1,23 @@
+setInterval
+ - executa uma função de tempos em tempos até que peça para parar
+setTimeout
+ - vai executar um bloco de código de uma vez só (ex: quero que seja executado daqui 1m -> ele vai executar a função daqui 1 min)
+
+ *** callback
+
+ setTimeout(() => {
+     alert('Passou 10s');
+ }, 10000);
+ // sempre passar o tempo em milissegundos
+========================================
+ setInterval(() => {
+     alert('Passou 1s');
+ }, 1000);
+ =======================================
+ innerHTML vai pegar o conteúdo entre as tags
+
+ clearInterval -> vai limpar o conteudo de setInterval
+
+ =======================================
+
+ 
